@@ -1,9 +1,9 @@
 function getLength(arr) {
-  const arrayLength = arr.length; //return length of arr
+  const arrayLength = arr.length;        //return length of arr
   return arrayLength;
 }
 function getFirst(arr) {
-  const arrayFirst = arr[0]; //return the first element of arr
+  const arrayFirst = arr[0];             //return the first element of arr
   return arrayFirst;
 }
 function getLast(arr) {
@@ -12,11 +12,10 @@ function getLast(arr) {
 }
 function pushElement(arr) {
   var el = 1;
-  arr.push(el); //push el to arr
+  arr.push(el);                          //push el to arr
   return arr;
 }
 function popElement(arr) {
-  //pop an element from arr
-  const arrayPop = arr.pop();
+  const arrayPop = arr.pop();           //pop an element from arr
   return arr;
 }
